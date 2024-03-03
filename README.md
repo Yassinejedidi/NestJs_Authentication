@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+building a dynamic authentication system using LDAP integration with a NestJS application. This system operates by first verifying a user's credentials against an LDAP server. If the user exists in the LDAP directory, the system then checks if the user is present in the application's database. If found, it generates a JWT token for the user. However, if the user exists in LDAP but not in the database, the system automatically creates a new database entry for the user and generates a token.
 
 ## Installation
 
