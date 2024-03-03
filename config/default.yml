@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'authentification'
+
+
+jwt:
+  expiresIn: 3600
+
+azure:
+   AZURE_STORAGE_CONNEXION_STRING: 'DefaultEndpointsProtocol=https;AccountName=uploadnest;AccountKey=FXP4CZOFqhJ1d77t9BLoJar217iQyU34ovlCD+QVFlH9Bj/+zKjJVqJ01pYO7VKnGHb/dGbD062I+AStdenZZg==;EndpointSuffix=core.windows.net'
